@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
-  por Daniel Rodrigues, 31839010
-  e   Matheus Masumoto de Carvalho, 31850741
-  
-  OBS: Feito usando formatador de código em C padrão do VS Code
-*/
-
 typedef struct _TNo
 {
   int w;
@@ -191,3 +184,4 @@ void libera(TGrafo *G)
   free(G->adj);
   free(G);
 }
+

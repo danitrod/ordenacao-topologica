@@ -6,13 +6,6 @@
 
 #define MAX_CHARS_INPUT 50
 
-/*
-  por Daniel Rodrigues, 31839010
-  e   Matheus Masumoto de Carvalho, 31850741
-  
-  OBS: Feito usando formatador de código em C padrão do VS Code
-*/
-
 void topologicalSort(TGrafo *G, char **nomes);
 
 int main(int argc, char const *argv[])
@@ -111,3 +104,4 @@ void topologicalSort(TGrafo *G, char **nomes)
 
   liberaFila(fila);
 }
+
